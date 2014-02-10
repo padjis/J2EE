@@ -1,0 +1,30 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Matchevents.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Matchevents
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid 5e6cb14e-f0e3-4573-b976-612a8c2b0232 */
+public class Matchevents {
+   /** @pdOid a9f29bc1-4693-4cca-a429-01f98bde8167 */
+   private int idevents;
+   /** @pdOid a623337d-463e-40b1-823c-e9a3c5cbe24d */
+   private int typee;
+   /** @pdOid fbf089f7-7486-41a1-867f-285695effb3a */
+   private int equipee;
+   /** @pdOid 77a4dfba-65e5-44b6-b157-3dae6e6a7bae */
+   private String textee;
+   /** @pdOid 9bdd894f-52cc-47db-9450-ec8f76c9cd3c */
+   private int minutee;
+   /** @pdOid 9491a2c5-0b81-4f27-b3b3-e8195962b171 */
+   private int secondee;
+   
+   /** @pdRoleInfo migr=no name=Player assc=concernsp mult=0..1 */
+   public Player player;
+   /** @pdRoleInfo migr=no name=Game assc=concernsm coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   public Game game;
+
+}

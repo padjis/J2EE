@@ -1,0 +1,67 @@
+package com.indev.worlcup.extra;
+/***********************************************************************
+ * Module:  Media.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Media
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
+public class Media {
+
+	@Id
+   private int idmedia;
+   /** @pdOid 955ff198-d27c-4c69-80e1-433bf1fcfbaa */
+   private String typem;
+   /** @pdOid c98336e8-537c-45d1-8e32-e893685a8b7d */
+   private String pathm;
+   /** @pdOid e196f698-a0d2-4219-bea1-ceddf4d2f1e7 */
+   private String textem;
+   /** @pdOid 30b52fcb-a6b8-4045-b15f-4019bad8d4d3 */
+   private String datecreationm;
+   /** @pdOid 330e1c09-8f92-497f-9ef5-fb4254fa9560 */
+   private int statem;
+
+   
+	public int getIdmedia() {
+		return idmedia;
+	}
+	public void setIdmedia(int idmedia) {
+		this.idmedia = idmedia;
+	}
+	public String getTypem() {
+		return typem;
+	}
+	public void setTypem(String typem) {
+		this.typem = typem;
+	}
+	public String getPathm() {
+		return pathm;
+	}
+	public void setPathm(String pathm) {
+		this.pathm = pathm;
+	}
+	public String getTextem() {
+		return textem;
+	}
+	public void setTextem(String textem) {
+		this.textem = textem;
+	}
+	public String getDatecreationm() {
+		return datecreationm;
+	}
+	public void setDatecreationm(String datecreationm) {
+		this.datecreationm = datecreationm;
+	}
+	public int getStatem() {
+		return statem;
+	}
+	public void setStatem(int statem) {
+		this.statem = statem;
+	}
+}

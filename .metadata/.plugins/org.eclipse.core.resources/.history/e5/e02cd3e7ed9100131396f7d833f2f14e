@@ -1,0 +1,5 @@
+package com.indev.worldcup;
+
+public enum EnumEvent {
+	redcard,yellowcard,freekick,corner,penalty,changing,fault,other
+}

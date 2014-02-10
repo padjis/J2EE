@@ -1,0 +1,27 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Stadium.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Stadium
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
+/** @pdOid aa0cad45-0a25-4e27-9dbb-892247a16e2a */
+public class Stadium {
+	@Id
+   /** @pdOid c579a2fc-f94d-472b-b5a1-7fd09f89f55c */
+   private int idstadium;
+   /** @pdOid 7fa62605-b016-4805-af83-bc992e263788 */
+   private String names;
+   /** @pdOid 18ec4808-79d9-450e-a616-562d56a6bff1 */
+   private String infos;
+   /** @pdOid f1d96dcf-aff5-455e-88a6-dcd5c7bd9235 */
+   private int capacitys;
+
+}

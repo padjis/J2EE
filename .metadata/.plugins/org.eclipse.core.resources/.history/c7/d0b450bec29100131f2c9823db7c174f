@@ -1,0 +1,91 @@
+package com.indev.worldcup.user;
+/***********************************************************************
+ * Module:  Users.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Users
+ ***********************************************************************/
+
+import java.util.*;
+
+import com.indev.worlcup.extra.Freelancerequest;
+
+/** @pdOid 5f5c842e-cb1b-4706-9164-5a4d6c3b2b10 */
+public class Users {
+   /** @pdOid 5f2c9950-255b-48ee-8f59-31a7eefcecc5 */
+   private String username;
+   /** @pdOid 1a22e978-e1fa-405e-9328-55565724b825 */
+   private String firstname;
+   /** @pdOid be2c02c9-6544-4ef0-8497-1b80b7237b72 */
+   private String lastname;
+   /** @pdOid 7bffc176-8ec7-4e5d-8f40-417d66ac5edc */
+   private String password;
+   /** @pdOid c6b66280-ef04-4879-8859-91a61f177901 */
+   private String privilige;
+   /** @pdOid 45523a9f-c5b3-49ec-b429-755a9a4c9f72 */
+   private String mail;
+   /** @pdOid 76b458e0-e6fe-4b51-a0b1-1a949e7d5324 */
+   private int numtel;
+   /** @pdOid 447bf5e8-04f0-44b3-aa64-3480a4a0695e */
+   private String enterprisename;
+   /** @pdOid 5c78cea2-79f8-414a-a628-7fdc677ef2e8 */
+   private int enterprisetel;
+   /** @pdOid a8064a17-40ae-43e3-83cf-1adba26006b6 */
+   private String path;
+   /** @pdOid 3f1d81a4-2da4-4af9-a0ba-0130e4fef199 */
+   private int state;
+   
+   /** Association_5 */
+   /** @pdRoleInfo migr=no name=Freelancerequest assc=send coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<Freelancerequest> freelancerequest;
+   
+   
+   /** @pdGenerated default getter */
+   public java.util.Collection<Freelancerequest> getFreelancerequest() {
+      if (freelancerequest == null)
+         freelancerequest = new java.util.HashSet<Freelancerequest>();
+      return freelancerequest;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorFreelancerequest() {
+      if (freelancerequest == null)
+         freelancerequest = new java.util.HashSet<Freelancerequest>();
+      return freelancerequest.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newFreelancerequest */
+   public void setFreelancerequest(java.util.Collection<Freelancerequest> newFreelancerequest) {
+      removeAllFreelancerequest();
+      for (java.util.Iterator iter = newFreelancerequest.iterator(); iter.hasNext();)
+         addFreelancerequest((Freelancerequest)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newFreelancerequest */
+   public void addFreelancerequest(Freelancerequest newFreelancerequest) {
+      if (newFreelancerequest == null)
+         return;
+      if (this.freelancerequest == null)
+         this.freelancerequest = new java.util.HashSet<Freelancerequest>();
+      if (!this.freelancerequest.contains(newFreelancerequest))
+         this.freelancerequest.add(newFreelancerequest);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldFreelancerequest */
+   public void removeFreelancerequest(Freelancerequest oldFreelancerequest) {
+      if (oldFreelancerequest == null)
+         return;
+      if (this.freelancerequest != null)
+         if (this.freelancerequest.contains(oldFreelancerequest))
+            this.freelancerequest.remove(oldFreelancerequest);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllFreelancerequest() {
+      if (freelancerequest != null)
+         freelancerequest.clear();
+   }
+
+}

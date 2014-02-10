@@ -1,0 +1,33 @@
+/***********************************************************************
+ * Module:  Game.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Game
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid 67b28417-4604-4baa-85ca-8db3ad9c6e9b */
+public class Game {
+   /** @pdOid 77b811f0-bfef-404f-9ef6-1395fdaa0278 */
+   private int idgame;
+   /** @pdOid 820c7822-fbfe-48e7-95b2-8c467187b5e9 */
+   private String datem;
+   /** @pdOid 3c97420f-8b1d-483a-b95e-3a83df0cfd8d */
+   private String heurem;
+   /** @pdOid b5eade91-6f4e-4fcd-8dcb-60ad961915fb */
+   private int statem;
+   /** @pdOid 3be3302c-9acd-4c14-b3d4-8b6306a7fce9 */
+   private String arbitrem;
+   /** @pdOid 9c4c2a81-6d05-4ae7-b2b3-943c06938240 */
+   private String eqpa;
+   /** @pdOid ab986d2b-6427-49f0-80d0-c25ed0a87b7f */
+   private String eqpb;
+   /** @pdOid c8bb0ac0-f0ff-4ddd-af4c-c49fa3c48172 */
+   private int nbrbuta;
+   /** @pdOid a6894aef-e987-4685-9ec7-57fa66cb7108 */
+   private int nbrbutb;
+   
+   /** @pdRoleInfo migr=no name=stadium assc=takeplace coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   public stadium stadium;
+
+}

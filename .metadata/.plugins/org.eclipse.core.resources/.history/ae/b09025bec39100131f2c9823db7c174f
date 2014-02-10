@@ -1,0 +1,70 @@
+package com.indev.worlcup.extra;
+/***********************************************************************
+ * Module:  Item.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Item
+ ***********************************************************************/
+
+
+import java.util.*;
+
+import javax.persistence.Entity;
+
+import com.indev.worldcup.tournament.Game;
+import com.indev.worldcup.user.Subscribed;
+
+@Entity@
+/** @pdOid ed6e554b-904d-408e-b507-cd63ec40305b */
+public class Item {
+	@javax.persistence.Id
+   /** @pdOid 60dc7732-92d6-44f2-96eb-a5dc3f530379 */
+   private int iditem;
+   /** @pdOid 0ccd3e7e-e301-47ae-b5e4-0acf5e68af06 */
+   private String typei;
+   /** @pdOid f06f9ad8-b221-4a45-910a-c071cac8eb1f */
+   private double pricei;
+   /** @pdOid dac07686-09e4-4f4b-9bbb-a8e15f12916b */
+   private int quantityi;
+   /** @pdOid 33ee78f8-8e75-4a41-a7da-9669e0145f34 */
+   private String nomi;
+   /** @pdOid 2b23ea8e-1d15-4a9d-ba44-753c74bdb96d */
+   private String descriptioni;
+   
+public int getIditem() {
+	return iditem;
+}
+public void setIditem(int iditem) {
+	this.iditem = iditem;
+}
+public String getTypei() {
+	return typei;
+}
+public void setTypei(String typei) {
+	this.typei = typei;
+}
+public double getPricei() {
+	return pricei;
+}
+public void setPricei(double pricei) {
+	this.pricei = pricei;
+}
+public int getQuantityi() {
+	return quantityi;
+}
+public void setQuantityi(int quantityi) {
+	this.quantityi = quantityi;
+}
+public String getNomi() {
+	return nomi;
+}
+public void setNomi(String nomi) {
+	this.nomi = nomi;
+}
+public String getDescriptioni() {
+	return descriptioni;
+}
+public void setDescriptioni(String descriptioni) {
+	this.descriptioni = descriptioni;
+}
+
+}

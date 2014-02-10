@@ -1,0 +1,39 @@
+/***********************************************************************
+ * Module:  player.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class player
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid 880efe74-08d2-4eb7-b757-053ea1d49250 */
+public class Player {
+   /** @pdOid 058e2b07-b1d4-46f4-b584-bd81ec4672c3 */
+   private int idplayer;
+   /** @pdOid 28fcd77e-24a0-4059-88f5-bdfbf003e468 */
+   private String namep;
+   /** @pdOid 0f9edc72-8e6c-4dd1-944a-b77ae2d2dbe3 */
+   private int agep;
+   /** @pdOid 35ae5a35-5019-45ce-afe5-ff6c00cc5ca1 */
+   private int butp;
+   /** @pdOid 4fbb6d30-273c-4e4f-8ecb-3233e48bdbad */
+   private int carrp;
+   /** @pdOid 05e6152b-4783-442a-8f91-2962208f4005 */
+   private int carjp;
+   /** @pdOid db7a565a-8366-416b-a09a-b090c0a65b83 */
+   private int postep;
+   /** @pdOid 3d9a17d7-8be8-4c75-8ac2-a2873b1d7af4 */
+   private int butep;
+   /** @pdOid 27a9cadb-c690-4ff1-b6a2-0ec90eabe808 */
+   private int pathp;
+   /** @pdOid 2a53c294-9c14-4d4d-86b3-7d29709db184 */
+   private int textp;
+   /** @pdOid 2fa94df4-bd7e-4a86-a0a6-7eb569469b90 */
+   private int matchjp;
+   /** @pdOid a89601bb-e617-4bde-80b2-13b1581bfd9f */
+   private int matchgp;
+   
+   /** @pdRoleInfo migr=no name=team assc=belongs coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   public team team;
+
+}

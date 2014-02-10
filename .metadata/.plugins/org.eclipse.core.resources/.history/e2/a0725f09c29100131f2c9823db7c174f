@@ -1,0 +1,18 @@
+/***********************************************************************
+ * Module:  Freelancerequest.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Freelancerequest
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid c8354073-b2ee-4d01-8ec8-320969720582 */
+public class Freelancerequest {
+   /** @pdOid cc78d564-35fc-43e3-8b3d-09b8d826eca4 */
+   private int idfreelance;
+   /** @pdOid 47593ecb-b8b5-4b23-9efd-57037e9f87d6 */
+   private String datecreationf;
+   /** @pdOid 07f3dd63-03f3-43ee-b9e7-9a411c44ca1e */
+   private int statef;
+
+}

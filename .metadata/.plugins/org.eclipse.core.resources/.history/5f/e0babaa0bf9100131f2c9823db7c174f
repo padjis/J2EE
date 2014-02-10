@@ -1,0 +1,24 @@
+/***********************************************************************
+ * Module:  Media.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Media
+ ***********************************************************************/
+package com.indev.worldcup;
+import java.util.*;
+
+/** @pdOid 821e349f-08a9-48c1-b51c-2fd1bf592602 */
+public class Media {
+   /** @pdOid 0289a11a-5855-424f-807c-26aa5b7f078b */
+   private int idmedia;
+   /** @pdOid 955ff198-d27c-4c69-80e1-433bf1fcfbaa */
+   private String typem;
+   /** @pdOid c98336e8-537c-45d1-8e32-e893685a8b7d */
+   private String pathm;
+   /** @pdOid e196f698-a0d2-4219-bea1-ceddf4d2f1e7 */
+   private String textem;
+   /** @pdOid 30b52fcb-a6b8-4045-b15f-4019bad8d4d3 */
+   private String datecreationm;
+   /** @pdOid 330e1c09-8f92-497f-9ef5-fb4254fa9560 */
+   private int statem;
+
+}

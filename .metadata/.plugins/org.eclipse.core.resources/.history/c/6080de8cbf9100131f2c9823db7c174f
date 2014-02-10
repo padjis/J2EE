@@ -1,0 +1,144 @@
+/***********************************************************************
+ * Module:  Team.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Team
+ ***********************************************************************/
+package com.indev.worldcup;
+import java.util.*;
+
+import com.indev.worldcup.Matchevents;
+import com.indev.worldcup.user.Users;
+
+/** @pdOid 9e647eb4-e85b-4ece-9e15-ce8cf20aae37 */
+public class Team {
+   /** @pdOid 6c1df98a-d811-4b8d-9bca-981969794646 */
+   private String namet;
+   /** @pdOid d984bd1c-5a57-4866-8eaa-79120974b2bb */
+   private String mininamet;
+   /** @pdOid a9f833d2-4812-473c-92d3-a538c67e47d7 */
+   private int pointt;
+   /** @pdOid 63d3bfc1-747e-427e-aeb5-7612c5de2ba4 */
+   private String groupt;
+   /** @pdOid 34e58d4e-9c2f-42ff-a8e0-5a2ef6c47405 */
+   private int patht;
+   /** @pdOid eed78394-7133-47d7-bd3b-4c90050edcde */
+   private int goalmt;
+   /** @pdOid 8c86a2b1-293b-42bf-b0bf-e901a0698bc2 */
+   private int carrt;
+   /** @pdOid dac82395-32c5-451b-9573-e19bf97d94d2 */
+   private int carjt;
+   /** @pdOid ad587748-dfc9-44b7-b587-d5546712fb33 */
+   private int goalet;
+   /** @pdOid f31dd5b3-02a4-4812-aa94-1f8ff43fb4cd */
+   private int matchjt;
+   /** @pdOid 1a49caf4-ef70-40f3-97bb-05b69f22b5f0 */
+   private int matchgt;
+   /** @pdOid d19b11f7-56de-4d0e-a865-e0bdcaa00c16 */
+   private int levelt;
+   
+   /** @pdRoleInfo migr=no name=Users assc=managet coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   public Users users;
+   /** @pdRoleInfo migr=no name=Matchevents assc=concernst coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<Matchevents> matchevents;
+   /** @pdRoleInfo migr=no name=Game assc=play coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<Game> game;
+   
+   
+   /** @pdGenerated default getter */
+   public java.util.Collection<Matchevents> getMatchevents() {
+      if (matchevents == null)
+         matchevents = new java.util.HashSet<Matchevents>();
+      return matchevents;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorMatchevents() {
+      if (matchevents == null)
+         matchevents = new java.util.HashSet<Matchevents>();
+      return matchevents.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newMatchevents */
+   public void setMatchevents(java.util.Collection<Matchevents> newMatchevents) {
+      removeAllMatchevents();
+      for (java.util.Iterator iter = newMatchevents.iterator(); iter.hasNext();)
+         addMatchevents((Matchevents)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newMatchevents */
+   public void addMatchevents(Matchevents newMatchevents) {
+      if (newMatchevents == null)
+         return;
+      if (this.matchevents == null)
+         this.matchevents = new java.util.HashSet<Matchevents>();
+      if (!this.matchevents.contains(newMatchevents))
+         this.matchevents.add(newMatchevents);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldMatchevents */
+   public void removeMatchevents(Matchevents oldMatchevents) {
+      if (oldMatchevents == null)
+         return;
+      if (this.matchevents != null)
+         if (this.matchevents.contains(oldMatchevents))
+            this.matchevents.remove(oldMatchevents);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllMatchevents() {
+      if (matchevents != null)
+         matchevents.clear();
+   }
+   /** @pdGenerated default getter */
+   public java.util.Collection<Game> getGame() {
+      if (game == null)
+         game = new java.util.HashSet<Game>();
+      return game;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorGame() {
+      if (game == null)
+         game = new java.util.HashSet<Game>();
+      return game.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newGame */
+   public void setGame(java.util.Collection<Game> newGame) {
+      removeAllGame();
+      for (java.util.Iterator iter = newGame.iterator(); iter.hasNext();)
+         addGame((Game)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newGame */
+   public void addGame(Game newGame) {
+      if (newGame == null)
+         return;
+      if (this.game == null)
+         this.game = new java.util.HashSet<Game>();
+      if (!this.game.contains(newGame))
+         this.game.add(newGame);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldGame */
+   public void removeGame(Game oldGame) {
+      if (oldGame == null)
+         return;
+      if (this.game != null)
+         if (this.game.contains(oldGame))
+            this.game.remove(oldGame);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllGame() {
+      if (game != null)
+         game.clear();
+   }
+
+}

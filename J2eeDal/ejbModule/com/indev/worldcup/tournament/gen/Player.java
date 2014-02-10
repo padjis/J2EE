@@ -18,6 +18,7 @@ public class Player {
    private String namep;
    private int agep;
    private int butp;
+   private int nump;
    private int carrp;
    private int carjp;
    private int postep;
@@ -26,6 +27,15 @@ public class Player {
    private int textp;
    private int matchjp;
    private int matchgp;
+   
+   
+   public int getNump() {
+		return nump;
+	}
+
+	public void setNump(int nump) {
+		this.nump = nump;
+	}
    public int getIdplayer() {
 	return idplayer;
 }

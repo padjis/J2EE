@@ -1,0 +1,22 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Stadium.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Stadium
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
+public class Stadium {
+	@Id
+   private int idstadium;
+   private String names;
+   private String infos;
+   private int capacitys;
+
+}

@@ -1,0 +1,5 @@
+package com.indev.worldcup;
+
+public enum EnumEvent {
+
+}

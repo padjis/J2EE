@@ -1,0 +1,94 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Team.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Team
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import com.indev.worldcup.user.Users;
+
+@Entity
+/** @pdOid 9e647eb4-e85b-4ece-9e15-ce8cf20aae37 */
+public class Team {
+	@Id
+   /** @pdOid 6c1df98a-d811-4b8d-9bca-981969794646 */
+   private String namet;
+   /** @pdOid d984bd1c-5a57-4866-8eaa-79120974b2bb */
+   private String mininamet;
+   /** @pdOid a9f833d2-4812-473c-92d3-a538c67e47d7 */
+   private int pointt;
+   /** @pdOid 63d3bfc1-747e-427e-aeb5-7612c5de2ba4 */
+   private String groupt;
+   /** @pdOid 34e58d4e-9c2f-42ff-a8e0-5a2ef6c47405 */
+   private int patht;
+   /** @pdOid eed78394-7133-47d7-bd3b-4c90050edcde */
+   private int goalmt;
+   /** @pdOid 8c86a2b1-293b-42bf-b0bf-e901a0698bc2 */
+   private int carrt;
+   /** @pdOid dac82395-32c5-451b-9573-e19bf97d94d2 */
+   private int carjt;
+   /** @pdOid ad587748-dfc9-44b7-b587-d5546712fb33 */
+   private int goalet;
+   /** @pdOid f31dd5b3-02a4-4812-aa94-1f8ff43fb4cd */
+   private int matchjt;
+   /** @pdOid 1a49caf4-ef70-40f3-97bb-05b69f22b5f0 */
+   private int matchgt;
+   /** @pdOid d19b11f7-56de-4d0e-a865-e0bdcaa00c16 */
+   private int levelt;
+   
+   
+   
+   public String getNamet() {
+	return namet;
+}
+
+public String getMininamet() {
+	return mininamet;
+}
+
+public int getPointt() {
+	return pointt;
+}
+
+public String getGroupt() {
+	return groupt;
+}
+
+public int getPatht() {
+	return patht;
+}
+
+public int getGoalmt() {
+	return goalmt;
+}
+
+public int getCarrt() {
+	return carrt;
+}
+
+public int getCarjt() {
+	return carjt;
+}
+
+public int getGoalet() {
+	return goalet;
+}
+
+public int getMatchjt() {
+	return matchjt;
+}
+
+public int getMatchgt() {
+	return matchgt;
+}
+
+public int getLevelt() {
+	return levelt;
+}
+
+}

@@ -1,0 +1,64 @@
+/***********************************************************************
+ * Module:  administrator.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class administrator
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid 5842dddb-2664-4642-a15b-f51f43ae5d44 */
+public class administrator extends users {
+   /** @pdRoleInfo migr=no name=freelancerequest assc=manager coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<freelancerequest> freelancerequest;
+   
+   
+   /** @pdGenerated default getter */
+   public java.util.Collection<freelancerequest> getFreelancerequest() {
+      if (freelancerequest == null)
+         freelancerequest = new java.util.HashSet<freelancerequest>();
+      return freelancerequest;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorFreelancerequest() {
+      if (freelancerequest == null)
+         freelancerequest = new java.util.HashSet<freelancerequest>();
+      return freelancerequest.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newFreelancerequest */
+   public void setFreelancerequest(java.util.Collection<freelancerequest> newFreelancerequest) {
+      removeAllFreelancerequest();
+      for (java.util.Iterator iter = newFreelancerequest.iterator(); iter.hasNext();)
+         addFreelancerequest((freelancerequest)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newFreelancerequest */
+   public void addFreelancerequest(freelancerequest newFreelancerequest) {
+      if (newFreelancerequest == null)
+         return;
+      if (this.freelancerequest == null)
+         this.freelancerequest = new java.util.HashSet<freelancerequest>();
+      if (!this.freelancerequest.contains(newFreelancerequest))
+         this.freelancerequest.add(newFreelancerequest);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldFreelancerequest */
+   public void removeFreelancerequest(freelancerequest oldFreelancerequest) {
+      if (oldFreelancerequest == null)
+         return;
+      if (this.freelancerequest != null)
+         if (this.freelancerequest.contains(oldFreelancerequest))
+            this.freelancerequest.remove(oldFreelancerequest);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllFreelancerequest() {
+      if (freelancerequest != null)
+         freelancerequest.clear();
+   }
+
+}

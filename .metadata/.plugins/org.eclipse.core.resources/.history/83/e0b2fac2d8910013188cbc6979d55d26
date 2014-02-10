@@ -1,0 +1,79 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Matchevents.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Matchevents
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+//@Entity
+public class Matchevents {
+	//@Id
+   private int idevents;
+   private int typee;
+   private int equipee;
+   private String textee;
+   public int getIdevents() {
+	return idevents;
+}
+public void setIdevents(int idevents) {
+	this.idevents = idevents;
+}
+public int getTypee() {
+	return typee;
+}
+public void setTypee(int typee) {
+	this.typee = typee;
+}
+public int getEquipee() {
+	return equipee;
+}
+public void setEquipee(int equipee) {
+	this.equipee = equipee;
+}
+public String getTextee() {
+	return textee;
+}
+public void setTextee(String textee) {
+	this.textee = textee;
+}
+public int getMinutee() {
+	return minutee;
+}
+public void setMinutee(int minutee) {
+	this.minutee = minutee;
+}
+public int getSecondee() {
+	return secondee;
+}
+public void setSecondee(int secondee) {
+	this.secondee = secondee;
+}
+public Player getPlayer() {
+	return player;
+}
+public void setPlayer(Player player) {
+	this.player = player;
+}
+public Game getGame() {
+	return game;
+}
+public void setGame(Game game) {
+	this.game = game;
+}
+/** @pdOid 9bdd894f-52cc-47db-9450-ec8f76c9cd3c */
+   private int minutee;
+   /** @pdOid 9491a2c5-0b81-4f27-b3b3-e8195962b171 */
+   private int secondee;
+   
+   /** @pdRoleInfo migr=no name=Player assc=concernsp mult=0..1 */
+   private Player player;
+   /** @pdRoleInfo migr=no name=Game assc=concernsm coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   private Game game;
+
+}

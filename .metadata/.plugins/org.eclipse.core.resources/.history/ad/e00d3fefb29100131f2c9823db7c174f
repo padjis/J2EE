@@ -1,0 +1,79 @@
+/***********************************************************************
+ * Module:  item.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class item
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid ed6e554b-904d-408e-b507-cd63ec40305b */
+public class item {
+   /** @pdOid 60dc7732-92d6-44f2-96eb-a5dc3f530379 */
+   private int iditem;
+   /** @pdOid 0ccd3e7e-e301-47ae-b5e4-0acf5e68af06 */
+   private String typei;
+   /** @pdOid f06f9ad8-b221-4a45-910a-c071cac8eb1f */
+   private double pricei;
+   /** @pdOid dac07686-09e4-4f4b-9bbb-a8e15f12916b */
+   private int quantityi;
+   /** @pdOid 33ee78f8-8e75-4a41-a7da-9669e0145f34 */
+   private String nomi;
+   /** @pdOid 2b23ea8e-1d15-4a9d-ba44-753c74bdb96d */
+   private String descriptioni;
+   
+   /** @pdRoleInfo migr=no name=Game assc=related coll=java.util.Collection impl=java.util.HashSet mult=0..1 */
+   public Game game;
+   /** @pdRoleInfo migr=no name=subscribed assc=buy coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<subscribed> subscribed;
+   
+   
+   /** @pdGenerated default getter */
+   public java.util.Collection<subscribed> getSubscribed() {
+      if (subscribed == null)
+         subscribed = new java.util.HashSet<subscribed>();
+      return subscribed;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorSubscribed() {
+      if (subscribed == null)
+         subscribed = new java.util.HashSet<subscribed>();
+      return subscribed.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newSubscribed */
+   public void setSubscribed(java.util.Collection<subscribed> newSubscribed) {
+      removeAllSubscribed();
+      for (java.util.Iterator iter = newSubscribed.iterator(); iter.hasNext();)
+         addSubscribed((subscribed)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newSubscribed */
+   public void addSubscribed(subscribed newSubscribed) {
+      if (newSubscribed == null)
+         return;
+      if (this.subscribed == null)
+         this.subscribed = new java.util.HashSet<subscribed>();
+      if (!this.subscribed.contains(newSubscribed))
+         this.subscribed.add(newSubscribed);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldSubscribed */
+   public void removeSubscribed(subscribed oldSubscribed) {
+      if (oldSubscribed == null)
+         return;
+      if (this.subscribed != null)
+         if (this.subscribed.contains(oldSubscribed))
+            this.subscribed.remove(oldSubscribed);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllSubscribed() {
+      if (subscribed != null)
+         subscribed.clear();
+   }
+
+}

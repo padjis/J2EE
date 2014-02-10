@@ -1,0 +1,148 @@
+package com.indev.worldcup.tournament;
+/***********************************************************************
+ * Module:  Player.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Player
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
+public class Player {
+	@Id
+   private int idplayer;
+   /** @pdOid 28fcd77e-24a0-4059-88f5-bdfbf003e468 */
+   private String namep;
+   /** @pdOid 0f9edc72-8e6c-4dd1-944a-b77ae2d2dbe3 */
+   private int agep;
+   /** @pdOid 35ae5a35-5019-45ce-afe5-ff6c00cc5ca1 */
+   private int butp;
+   /** @pdOid 4fbb6d30-273c-4e4f-8ecb-3233e48bdbad */
+   private int carrp;
+   /** @pdOid 05e6152b-4783-442a-8f91-2962208f4005 */
+   private int carjp;
+   /** @pdOid db7a565a-8366-416b-a09a-b090c0a65b83 */
+   private int postep;
+   /** @pdOid 3d9a17d7-8be8-4c75-8ac2-a2873b1d7af4 */
+   private int butep;
+   /** @pdOid 27a9cadb-c690-4ff1-b6a2-0ec90eabe808 */
+   private int pathp;
+   /** @pdOid 2a53c294-9c14-4d4d-86b3-7d29709db184 */
+   private int textp;
+   public int getIdplayer() {
+	return idplayer;
+}
+
+public void setIdplayer(int idplayer) {
+	this.idplayer = idplayer;
+}
+
+public String getNamep() {
+	return namep;
+}
+
+public void setNamep(String namep) {
+	this.namep = namep;
+}
+
+public int getAgep() {
+	return agep;
+}
+
+public void setAgep(int agep) {
+	this.agep = agep;
+}
+
+public int getButp() {
+	return butp;
+}
+
+public void setButp(int butp) {
+	this.butp = butp;
+}
+
+public int getCarrp() {
+	return carrp;
+}
+
+public void setCarrp(int carrp) {
+	this.carrp = carrp;
+}
+
+public int getCarjp() {
+	return carjp;
+}
+
+public void setCarjp(int carjp) {
+	this.carjp = carjp;
+}
+
+public int getPostep() {
+	return postep;
+}
+
+public void setPostep(int postep) {
+	this.postep = postep;
+}
+
+public int getButep() {
+	return butep;
+}
+
+public void setButep(int butep) {
+	this.butep = butep;
+}
+
+public int getPathp() {
+	return pathp;
+}
+
+public void setPathp(int pathp) {
+	this.pathp = pathp;
+}
+
+public int getTextp() {
+	return textp;
+}
+
+public void setTextp(int textp) {
+	this.textp = textp;
+}
+
+public int getMatchjp() {
+	return matchjp;
+}
+
+public void setMatchjp(int matchjp) {
+	this.matchjp = matchjp;
+}
+
+public int getMatchgp() {
+	return matchgp;
+}
+
+public void setMatchgp(int matchgp) {
+	this.matchgp = matchgp;
+}
+
+public Team getTeam() {
+	return team;
+}
+
+public void setTeam(Team team) {
+	this.team = team;
+}
+
+/** @pdOid 2fa94df4-bd7e-4a86-a0a6-7eb569469b90 */
+   private int matchjp;
+   /** @pdOid a89601bb-e617-4bde-80b2-13b1581bfd9f */
+   private int matchgp;
+   
+   /** @pdRoleInfo migr=no name=Team assc=belongs coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
+   private Team team;
+
+}

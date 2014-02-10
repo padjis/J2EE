@@ -1,0 +1,66 @@
+/***********************************************************************
+ * Module:  Subscribed.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Subscribed
+ ***********************************************************************/
+
+import java.util.*;
+
+import com.indev.worldcup.Media;
+
+/** @pdOid 670228d5-8d3f-47a1-b53f-f2c7b4d89972 */
+public class Subscribed extends Users {
+   /** @pdRoleInfo migr=no name=Media assc=propose coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   public java.util.Collection<Media> media;
+   
+   
+   /** @pdGenerated default getter */
+   public java.util.Collection<Media> getMedia() {
+      if (media == null)
+         media = new java.util.HashSet<Media>();
+      return media;
+   }
+   
+   /** @pdGenerated default iterator getter */
+   public java.util.Iterator getIteratorMedia() {
+      if (media == null)
+         media = new java.util.HashSet<Media>();
+      return media.iterator();
+   }
+   
+   /** @pdGenerated default setter
+     * @param newMedia */
+   public void setMedia(java.util.Collection<Media> newMedia) {
+      removeAllMedia();
+      for (java.util.Iterator iter = newMedia.iterator(); iter.hasNext();)
+         addMedia((Media)iter.next());
+   }
+   
+   /** @pdGenerated default add
+     * @param newMedia */
+   public void addMedia(Media newMedia) {
+      if (newMedia == null)
+         return;
+      if (this.media == null)
+         this.media = new java.util.HashSet<Media>();
+      if (!this.media.contains(newMedia))
+         this.media.add(newMedia);
+   }
+   
+   /** @pdGenerated default remove
+     * @param oldMedia */
+   public void removeMedia(Media oldMedia) {
+      if (oldMedia == null)
+         return;
+      if (this.media != null)
+         if (this.media.contains(oldMedia))
+            this.media.remove(oldMedia);
+   }
+   
+   /** @pdGenerated default removeAll */
+   public void removeAllMedia() {
+      if (media != null)
+         media.clear();
+   }
+
+}
