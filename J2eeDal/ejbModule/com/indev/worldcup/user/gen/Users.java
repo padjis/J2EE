@@ -1,4 +1,4 @@
-package com.indev.worldcup.user;
+package com.indev.worldcup.user.gen;
 /***********************************************************************
  * Module:  Users.java
  * Author:  PADJIS
@@ -10,7 +10,7 @@ import java.util.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import com.indev.worlcup.extra.Freelancerequest;
+import com.indev.worldcup.extra.gen.Freelancerequest;
 
 @Entity
 public class Users {

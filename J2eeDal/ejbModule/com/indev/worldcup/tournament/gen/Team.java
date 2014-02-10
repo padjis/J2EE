@@ -1,4 +1,4 @@
-package com.indev.worldcup.tournament;
+package com.indev.worldcup.tournament.gen;
 /***********************************************************************
  * Module:  Team.java
  * Author:  PADJIS
@@ -10,7 +10,7 @@ import java.util.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import com.indev.worldcup.user.Users;
+import com.indev.worldcup.user.gen.Users;
 
 @Entity
 public class Team {

@@ -1,4 +1,4 @@
-package com.indev.worlcup.extra;
+package com.indev.worldcup.extra.gen;
 /***********************************************************************
  * Module:  Item.java
  * Author:  PADJIS

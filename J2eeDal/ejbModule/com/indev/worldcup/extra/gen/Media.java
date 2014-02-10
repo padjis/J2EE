@@ -1,4 +1,4 @@
-package com.indev.worlcup.extra;
+package com.indev.worldcup.extra.gen;
 /***********************************************************************
  * Module:  Media.java
  * Author:  PADJIS

@@ -1,4 +1,4 @@
-package com.indev.worldcup.tournament;
+package com.indev.worldcup.tournament.gen;
 /***********************************************************************
  * Module:  Game.java
  * Author:  PADJIS
