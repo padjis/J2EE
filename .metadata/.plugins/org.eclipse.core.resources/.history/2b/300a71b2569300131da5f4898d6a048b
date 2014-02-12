@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Media;
+import com.indev.worldcup.service.MediaService;
+
+public class MediaImpl extends Media implements MediaService {
+
+}

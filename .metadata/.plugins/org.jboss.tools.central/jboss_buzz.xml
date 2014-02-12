@@ -5,7 +5,7 @@
       <description>Pipes Output</description>
       <link>http://pipes.yahoo.com/pipes/pipe.info?_id=790c1cc25610e6b571d4857eaeb44fa4</link>
       <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=790c1cc25610e6b571d4857eaeb44fa4&amp;_render=rss&amp;page=2" />
-      <pubDate>Mon, 10 Feb 2014 19:12:01 +0000</pubDate>
+      <pubDate>Wed, 12 Feb 2014 19:41:04 +0000</pubDate>
       <generator>http://pipes.yahoo.com/pipes/</generator>
       <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
          <title>This week in JBoss (February 5th 2014): Reasoning the Bayesian way</title>
@@ -510,4 +510,4 @@ Petals Studio was also the pretext to start using <a rel="nofollow" target="_bla
          </media:content>
       <feedburner:origLink>http://mickaelistria.wordpress.com/2012/01/31/goodbye-petalslink-hello-jbossred-hat/</feedburner:origLink></item>
    </channel>
-</rss><!-- fe4.yql.bf1.yahoo.com compressed/chunked Mon Feb 10 19:11:57 UTC 2014 -->
+</rss><!-- fe3.yql.bf1.yahoo.com compressed/chunked Wed Feb 12 19:41:00 UTC 2014 -->

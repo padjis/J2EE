@@ -1,0 +1,41 @@
+package com.indev.worldcup.domain;
+/***********************************************************************
+ * Module:  Freelancerequest.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Freelancerequest
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;;
+
+@Entity
+public class Freelancerequest {
+	@Id
+   private int idfreelance;
+   private String datecreationf;
+   private int statef;
+   
+	public int getIdfreelance() {
+		return idfreelance;
+	}
+	public void setIdfreelance(int idfreelance) {
+		this.idfreelance = idfreelance;
+	}
+	public String getDatecreationf() {
+		return datecreationf;
+	}
+	public void setDatecreationf(String datecreationf) {
+		this.datecreationf = datecreationf;
+	}
+	public int getStatef() {
+		return statef;
+	}
+	public void setStatef(int statef) {
+		this.statef = statef;
+	}
+	   
+   
+
+}

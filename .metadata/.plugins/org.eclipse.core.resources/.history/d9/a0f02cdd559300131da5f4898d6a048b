@@ -1,0 +1,7 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Freelancerequest;
+
+public class BuFreelanceRequest extends Freelancerequest {
+
+}

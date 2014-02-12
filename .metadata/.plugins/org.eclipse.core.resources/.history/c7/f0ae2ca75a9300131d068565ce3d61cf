@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Freelancerequest;
+import com.indev.worldcup.service.FreelancerequestService;
+
+public class FreelanceRequestServiceImpl extends Freelancerequest implements FreelancerequestService {
+
+}

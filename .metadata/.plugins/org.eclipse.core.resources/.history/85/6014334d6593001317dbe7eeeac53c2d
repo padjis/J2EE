@@ -1,0 +1,7 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.service.ChiefEditorService;
+
+public class ChiefEditorServiceImpl extends UserServiceImpl implements ChiefEditorService {
+
+}

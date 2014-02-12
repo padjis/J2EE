@@ -1,0 +1,13 @@
+package com.indev.worldcup.user;
+
+import javax.ejb.Remote;
+
+import com.indev.worldcup.data.FreelanceRequestServiceImpl;
+import com.indev.worldcup.data.Freelancerequest;
+
+@Remote
+public interface ChiefEditorService {
+	/*as chief editor*/
+	public boolean acceptFreelanceRequest(Freelancerequest freelanceRequest);
+	public boolean refuseFreelanceRequest(Freelancerequest freelanceRequest);
+}

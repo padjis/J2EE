@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Item;
+import com.indev.worldcup.service.ItemService;
+
+public class ItemImpl extends Item implements ItemService {
+
+}

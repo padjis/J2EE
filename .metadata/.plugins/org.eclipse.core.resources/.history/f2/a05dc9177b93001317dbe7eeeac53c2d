@@ -1,0 +1,79 @@
+package com.indev.worldcup.data;
+/***********************************************************************
+ * Module:  Item.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Item
+ ***********************************************************************/
+
+
+import java.io.Serializable;
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+import com.indev.worldcup.tournament.Game;
+import com.indev.worldcup.tournament.GameServiceImpl;
+
+@Entity
+class Item implements Serializable{
+	@Id @GeneratedValue
+   private int iditem;
+   private String typei;
+   private double pricei;
+   private int quantityi;
+   private String nomi;
+   private String descriptioni;
+   
+   @OneToOne
+   @JoinColumn(name="idgame")
+   private GameServiceImpl game;
+   
+   
+	public GameServiceImpl getGame() {
+		return game;
+	}
+	public void setGame(GameServiceImpl game) {
+		this.game = game;
+	}
+	public int getIditem() {
+		return iditem;
+	}
+	public void setIditem(int iditem) {
+		this.iditem = iditem;
+	}
+	public String getTypei() {
+		return typei;
+	}
+	public void setTypei(String typei) {
+		this.typei = typei;
+	}
+	public double getPricei() {
+		return pricei;
+	}
+	public void setPricei(double pricei) {
+		this.pricei = pricei;
+	}
+	public int getQuantityi() {
+		return quantityi;
+	}
+	public void setQuantityi(int quantityi) {
+		this.quantityi = quantityi;
+	}
+	public String getNomi() {
+		return nomi;
+	}
+	public void setNomi(String nomi) {
+		this.nomi = nomi;
+	}
+	public String getDescriptioni() {
+		return descriptioni;
+	}
+	public void setDescriptioni(String descriptioni) {
+	this.descriptioni = descriptioni;
+}
+
+}

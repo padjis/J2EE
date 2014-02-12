@@ -1,0 +1,6 @@
+package com.indev.worldcup.serviceimpl;
+
+
+public class AdministratorImpl extends BuUsers {
+
+}

@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.domain.Users;
+import com.indev.worldcup.service.UsersService;
+
+@Stateless
+public class UsersServiceImpl extends Users implements UsersService {
+	
+}

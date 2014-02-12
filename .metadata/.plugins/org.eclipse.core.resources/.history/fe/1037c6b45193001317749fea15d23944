@@ -1,0 +1,7 @@
+package com.indev.worldcup.tournament;
+
+import com.indev.worldcup.domain.Game;
+
+public class BuGame extends Game {
+
+}

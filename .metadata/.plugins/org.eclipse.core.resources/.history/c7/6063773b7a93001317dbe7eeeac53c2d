@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class GameServiceImpl extends Game implements GameService {
+
+}

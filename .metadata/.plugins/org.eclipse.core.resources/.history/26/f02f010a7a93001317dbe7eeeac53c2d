@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.service.JournalistService;
+import com.indev.worldcup.service.UsersService;
+
+public class JournalistServiceImpl extends UserServiceImpl implements JournalistService {
+
+}

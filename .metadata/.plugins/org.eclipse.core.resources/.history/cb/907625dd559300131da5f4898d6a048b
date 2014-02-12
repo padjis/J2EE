@@ -1,0 +1,23 @@
+package com.indev.worldcup.serviceimpl;
+
+
+public class BuSubscribed extends BuUsers {
+	
+	boolean sendFreeLanceRequest(BuFreelanceRequest freelancerequest){
+		return false;
+	}
+	
+	boolean sendNewsSuggestions(BuMedia media){
+		return false;
+	}
+	
+	boolean sendInterviewsSuggestions(BuMedia media){
+		return false;
+	}
+	
+	boolean proposeAds(BuMedia ads){
+		return false;
+	}
+	
+	
+}

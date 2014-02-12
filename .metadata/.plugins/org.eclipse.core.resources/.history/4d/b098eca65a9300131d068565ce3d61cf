@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Game;
+import com.indev.worldcup.service.GameService;
+
+public class GameServiceImpl extends Game implements GameService {
+
+}

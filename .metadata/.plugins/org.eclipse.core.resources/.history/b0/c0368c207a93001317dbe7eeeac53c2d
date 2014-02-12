@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.service.MatcheventsService;
+import com.indev.worldcup.tournament.Matchevents;
+
+@Stateless
+public class MatchEventsServiceImpl extends Matchevents implements MatcheventsService {
+
+}

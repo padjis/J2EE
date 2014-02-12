@@ -1,0 +1,23 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.Freelancerequest;
+import com.indev.worldcup.service.ChiefEditorService;
+
+@Stateless
+public class ChiefEditorServiceImpl extends UserServiceImpl implements ChiefEditorService {
+
+	@Override
+	public boolean acceptFreelanceRequest(Freelancerequest freelanceRequest) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean refuseFreelanceRequest(Freelancerequest freelanceRequest) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

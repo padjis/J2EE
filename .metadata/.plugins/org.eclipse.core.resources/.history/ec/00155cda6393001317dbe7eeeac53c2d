@@ -1,0 +1,16 @@
+package com.indev.worldcup.service;
+
+import javax.ejb.Remote;
+
+import com.indev.worldcup.domain.Freelancerequest;
+import com.indev.worldcup.domain.Media;
+import com.indev.worldcup.domain.Users;
+
+@Remote
+public interface UsersService {
+	
+	public boolean login();
+	public boolean editProfile(Users user);
+	public boolean logout();
+	
+}

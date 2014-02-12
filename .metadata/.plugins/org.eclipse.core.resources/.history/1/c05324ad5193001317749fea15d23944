@@ -1,0 +1,5 @@
+package com.indev.worldcup.extra;
+
+public class BuVideo  extends BuMedia  {
+
+}

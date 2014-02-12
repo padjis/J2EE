@@ -1,0 +1,14 @@
+package com.indev.worldcup.service;
+
+import javax.ejb.Remote;
+
+import com.indev.worldcup.domain.Freelancerequest;
+
+@Remote
+public interface SubscribedService {
+
+	/*as subscribed*/
+	public boolean subscribe();
+	public boolean sendFreelanceRequest(Freelancerequest freelanceRequest);
+	public boolean consultFreelanceRequestState(Freelancerequest freelanceRequest);
+}

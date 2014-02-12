@@ -1,0 +1,9 @@
+package com.indev.worldcup.service;
+
+import com.indev.worldcup.domain.Freelancerequest;
+
+public interface ChiefEditorService {
+	/*as chief editor*/
+	public boolean acceptFreelanceRequest(Freelancerequest freelanceRequest);
+	public boolean refuseFreelanceRequest(Freelancerequest freelanceRequest);
+}

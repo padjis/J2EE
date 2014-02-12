@@ -1,0 +1,30 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.data.Freelancerequest;
+import com.indev.worldcup.user.SubscribedService;
+
+@Stateless
+public class SubscribedServiceImpl extends UserServiceImpl implements SubscribedService {
+
+	@Override
+	public boolean subscribe() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean sendFreelanceRequest(Freelancerequest freelanceRequest) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean consultFreelanceRequestState(
+			Freelancerequest freelanceRequest) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

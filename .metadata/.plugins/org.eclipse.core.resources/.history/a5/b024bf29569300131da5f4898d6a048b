@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Users;
+import com.indev.worldcup.service.UsersService;
+
+public class BuUsers extends Users implements UsersService {
+	
+}

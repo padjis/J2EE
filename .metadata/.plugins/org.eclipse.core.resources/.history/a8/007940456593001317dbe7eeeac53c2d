@@ -1,0 +1,7 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.service.SubscribedService;
+
+public class SubscribedServiceImpl extends UserServiceImpl implements SubscribedService {
+
+}

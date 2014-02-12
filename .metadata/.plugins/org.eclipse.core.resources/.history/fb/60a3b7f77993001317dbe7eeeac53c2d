@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.domain.Freelancerequest;
+import com.indev.worldcup.service.FreelancerequestService;
+
+@Stateless
+public class FreelanceRequestServiceImpl extends Freelancerequest implements FreelancerequestService {
+
+}

@@ -1,0 +1,7 @@
+package com.indev.worldcup.service;
+
+import com.indev.worldcup.domain.Matchevents;
+
+public class BuMatchEvents extends Matchevents {
+
+}

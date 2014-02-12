@@ -1,0 +1,6 @@
+package com.indev.worldcup.serviceimpl;
+
+@stateless
+public class VenteServiceImpl {
+
+}

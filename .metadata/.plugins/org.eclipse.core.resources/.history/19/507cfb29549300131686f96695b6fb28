@@ -1,0 +1,6 @@
+package com.indev.worldcup.service;
+
+
+public class BuAdministrator extends BuUsers {
+
+}

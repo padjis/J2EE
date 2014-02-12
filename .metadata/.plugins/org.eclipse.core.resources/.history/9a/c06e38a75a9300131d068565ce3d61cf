@@ -1,0 +1,8 @@
+package com.indev.worldcup.tools;
+
+import javax.ejb.Singleton;
+
+@Singleton
+public class WorldcupSystem {
+	
+}

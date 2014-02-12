@@ -1,0 +1,53 @@
+package com.indev.worldcup.data;
+/***********************************************************************
+ * Module:  Freelancerequest.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Freelancerequest
+ ***********************************************************************/
+
+import java.io.Serializable;
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import com.indev.worldcup.user.Users;
+
+@Entity
+public class Freelancerequest implements Serializable {
+	@Id @GeneratedValue
+    private int idfreelance;
+    private String datecreationf;
+    private int statef;
+    
+    //sender
+    @ManyToOne
+    Users sender;
+    
+    //receiver
+    @ManyToOne
+    Users receiver;
+   
+	public int getIdfreelance() {
+		return idfreelance;
+	}
+	public void setIdfreelance(int idfreelance) {
+		this.idfreelance = idfreelance;
+	}
+	public String getDatecreationf() {
+		return datecreationf;
+	}
+	public void setDatecreationf(String datecreationf) {
+		this.datecreationf = datecreationf;
+	}
+	public int getStatef() {
+		return statef;
+	}
+	public void setStatef(int statef) {
+		this.statef = statef;
+	}
+	   
+
+}

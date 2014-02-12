@@ -1,5 +1,0 @@
-package com.indev.worldcup;
-
-public enum EnumPosition {
-
-}

@@ -1,0 +1,21 @@
+package com.indev.worldcup.service;
+
+import com.indev.worldcup.domain.Media;
+import com.indev.worldcup.domain.Users;
+
+public interface AdministratorService {
+	/*as administrator*/
+	public boolean createUser(Users user);
+	public boolean deleteUser(Users user);
+	public boolean updateUser(Users user);
+	public boolean acceptAdsSuggestion(Media media);
+	public boolean refuseAdsSuggestion(Media media);
+	//gestion des photos
+	public boolean createPhoto(Media media);
+	public boolean updatePhoto(Media media);
+	public boolean deletePhoto(Media media);
+	//gestion des video
+	public boolean createVideo(Media media);
+	public boolean updateVideo(Media media);
+	public boolean deleteVideo(Media media);
+}

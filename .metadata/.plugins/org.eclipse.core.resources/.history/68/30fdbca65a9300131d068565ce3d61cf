@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Stadium;
+import com.indev.worldcup.service.StadiumService;
+
+public class StadiumServiceImpl extends Stadium implements StadiumService {
+
+}

@@ -1,0 +1,70 @@
+package com.indev.worldcup.services;
+
+
+public class BuJournalist extends BuUsers {
+
+	boolean addPhoto(BuMedia media){
+		return false;
+	}
+	
+	boolean deletePhoto(BuMedia media){
+		return false;
+	}
+	
+	boolean updatePhoto(BuMedia media){
+		return false;
+	}
+	
+	boolean addVideo(BuMedia media){
+		return false;
+	}
+	
+	boolean deleteVideo(BuMedia media){
+		return false;
+	}
+	
+	boolean updateVideo(BuMedia media){
+		return false;
+	}
+	
+	boolean addNews(BuMedia media){
+		return false;
+	}
+	
+	boolean deleteNewsVideo(BuMedia media){
+		return false;
+	}
+	
+	boolean updateNews(BuMedia media){
+		return false;
+	}
+	
+	boolean addInterview(BuMedia media){
+		return false;
+	}
+	
+	boolean deleteInterview(BuMedia media){
+		return false;
+	}
+	
+	boolean updateInterview(BuMedia media){
+		return false;
+	}
+	
+	boolean acceptFreelanceNewsSuggestion(BuMedia media){
+		return false;
+	}
+	
+	boolean refuseFreelanceNewsSuggestion(BuMedia media){
+		return false;
+	}
+	
+	boolean acceptFreelanceInterviewsSuggestion(BuMedia media){
+		return false;
+	}
+	
+	boolean refuseFreelanceInterviewsSuggestion(BuMedia media){
+		return false;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.domain.Vente;
+import com.indev.worldcup.service.VenteService;
+
+@Stateless
+public class VenteServiceImpl extends Vente implements VenteService {
+
+}

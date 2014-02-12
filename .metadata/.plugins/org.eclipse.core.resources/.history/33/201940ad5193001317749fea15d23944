@@ -1,0 +1,5 @@
+package com.indev.worldcup.extra;
+
+public class BuNews  extends BuMedia {
+
+}

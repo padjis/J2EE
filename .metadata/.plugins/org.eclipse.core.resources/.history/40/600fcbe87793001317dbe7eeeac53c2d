@@ -1,0 +1,18 @@
+/***********************************************************************
+ * Module:  Vente.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Vente
+ ***********************************************************************/
+
+import java.util.*;
+
+/** @pdOid 489d855d-09af-467d-bd13-78130fe30cc2 */
+public class Vente {
+   /** @pdOid 8d098baa-de0b-4137-b29e-702f777d5b07 */
+   private int idvente;
+   /** @pdOid 73d492c9-46f3-431f-a6d4-5b7e5d100812 */
+   private String datevente;
+   /** @pdOid 008c3765-7b96-4407-b4e6-142f031a60e8 */
+   private int quantitevente;
+
+}

@@ -2,3 +2,62 @@
 1391994510550	Rename package 'com.indev.worldcup.extra'
 1391994523653	Rename package 'com.indev.worldcup.tournament'
 1391994531633	Rename package 'com.indev.worldcup.user'
+1392146133869	Rename package 'com.indev.worldcup.extra.gen'
+1392146184172	Move compilation units
+1392146192211	Move compilation unit
+1392146233936	Rename package 'com.indev.worldcup.tournament.gen'
+1392146245853	Rename package 'com.indev.worldcup.user.gen'
+1392147536154	Rename package 'com.indev.worldcup.services'
+1392147544369	Rename package 'com.indev.worldcup.service'
+1392147559408	Rename package 'com.indev.worldcup.interfaces'
+1392148211279	Rename type 'BuAdministrator'
+1392148226677	Rename type 'BuAds'
+1392148252359	Rename type 'BuAdsPhoto'
+1392148261219	Rename type 'BuAdsVideo'
+1392148274367	Rename type 'BuFreelanceRequest'
+1392148285730	Delete element
+1392148288355	Delete element
+1392148291102	Delete element
+1392148293224	Delete element
+1392148303575	Rename type 'BuGame'
+1392148309805	Delete element
+1392148323141	Rename type 'BuItem'
+1392148330754	Delete element
+1392148341491	Rename type 'BuMatchEvents'
+1392148350101	Rename type 'BuMedia'
+1392148353270	Delete element
+1392148356098	Delete element
+1392148362678	Rename type 'BuPlayer'
+1392148370251	Rename type 'BuStadium'
+1392148376642	Delete element
+1392148384672	Rename type 'BuTeam'
+1392148402826	Rename type 'BuUsers'
+1392148418479	Delete element
+1392148420925	Delete element
+1392148609499	Rename type 'FreelanceRequestImpl'
+1392148615963	Rename type 'GameImpl'
+1392148621849	Rename type 'ItemImpl'
+1392148627089	Rename type 'MatchEventsImpl'
+1392148632177	Rename type 'MediaImpl'
+1392148637054	Rename type 'PlayerImpl'
+1392148642124	Rename type 'StadiumImpl'
+1392148648189	Rename type 'TeamImpl'
+1392148653812	Rename type 'UsersImpl'
+1392150041964	Rename type 'OurEntityManager'
+1392154142657	Rename type 'Journalist'
+1392154337778	Rename type 'UsersServiceImpl'
+1392154414642	Rename type 'AdministratorServiceImpl'
+1392160004469	Rename package 'com.indev.worldcup.domain'
+1392160189112	Rename package 'com.indev.worldcup'
+1392163768841	Move compilation units
+1392163781049	Move compilation units
+1392163788909	Move compilation unit
+1392163811761	Move compilation units
+1392163836267	Move compilation units
+1392163849537	Move compilation units
+1392163879495	Move compilation units
+1392163894518	Move compilation units
+1392163905531	Move compilation units
+1392163911528	Delete element
+1392163913965	Delete element
+1392163917749	Delete element

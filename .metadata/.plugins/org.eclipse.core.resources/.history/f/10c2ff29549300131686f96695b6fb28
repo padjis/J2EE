@@ -1,0 +1,9 @@
+package com.indev.worldcup.service;
+
+import com.indev.worldcup.domain.Users;
+
+public class BuUsers extends Users {
+	boolean login(){
+		return false;
+	}
+}

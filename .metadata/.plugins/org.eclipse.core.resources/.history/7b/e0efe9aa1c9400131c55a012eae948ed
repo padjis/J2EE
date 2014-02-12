@@ -1,0 +1,19 @@
+package com.indev.worldcup.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.indev.worldcup.services.BuAdministrator;
+
+public class test {
+
+	BuAdministrator administrator= new BuAdministrator();
+	
+	
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

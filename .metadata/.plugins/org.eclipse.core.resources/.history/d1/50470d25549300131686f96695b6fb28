@@ -1,0 +1,5 @@
+package com.indev.worldcup.services;
+
+public class BuAdsVideo  extends BuAds {
+
+}

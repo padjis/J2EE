@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.tournament.Team;
+import com.indev.worldcup.tournament.TeamService;
+
+@Stateless
+public class TeamServiceImpl extends Team implements TeamService {
+
+}

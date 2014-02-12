@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.domain.Media;
+import com.indev.worldcup.service.MediaService;
+
+@Stateless
+public class MediaServiceImpl extends Media implements MediaService {
+
+}

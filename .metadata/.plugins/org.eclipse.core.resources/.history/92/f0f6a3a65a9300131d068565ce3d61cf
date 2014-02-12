@@ -1,0 +1,8 @@
+package com.indev.worldcup.serviceimpl;
+
+import com.indev.worldcup.domain.Team;
+import com.indev.worldcup.service.TeamService;
+
+public class TeamServiceImpl extends Team implements TeamService {
+
+}

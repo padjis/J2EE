@@ -1,0 +1,7 @@
+package com.indev.worldcup.services;
+
+import com.indev.worldcup.domain.Team;
+
+public class BuTeam extends Team {
+
+}

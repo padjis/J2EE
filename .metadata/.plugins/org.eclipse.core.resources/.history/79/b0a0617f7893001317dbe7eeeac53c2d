@@ -1,0 +1,22 @@
+/***********************************************************************
+ * Module:  Vente.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Vente
+ ***********************************************************************/
+
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Vente {
+   @Id @GeneratedValue
+   private int idvente;
+   
+   private Date datevente;
+   
+   private int quantitevente;
+
+}

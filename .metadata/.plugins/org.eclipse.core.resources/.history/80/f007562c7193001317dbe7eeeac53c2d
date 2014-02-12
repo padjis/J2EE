@@ -1,0 +1,11 @@
+package com.indev.worldcup.serviceimpl;
+
+import javax.ejb.Stateless;
+
+import com.indev.worldcup.domain.Item;
+import com.indev.worldcup.service.ItemService;
+
+@Stateless
+public class ItemServiceImpl extends Item implements ItemService {
+
+}

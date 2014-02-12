@@ -1,0 +1,50 @@
+package com.indev.worldcup.domain;
+/***********************************************************************
+ * Module:  Stadium.java
+ * Author:  PADJIS
+ * Purpose: Defines the Class Stadium
+ ***********************************************************************/
+
+import java.io.Serializable;
+import java.util.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+
+@Entity
+public abstract class Stadium implements Serializable {
+   @Id @GeneratedValue
+   private int idstadium;
+   private String names;
+   private String infos;
+   private int capacitys;
+public int getIdstadium() {
+	return idstadium;
+}
+public void setIdstadium(int idstadium) {
+	this.idstadium = idstadium;
+}
+public String getNames() {
+	return names;
+}
+public void setNames(String names) {
+	this.names = names;
+}
+public String getInfos() {
+	return infos;
+}
+public void setInfos(String infos) {
+	this.infos = infos;
+}
+public int getCapacitys() {
+	return capacitys;
+}
+public void setCapacitys(int capacitys) {
+	this.capacitys = capacitys;
+}
+
+   
+   
+}
